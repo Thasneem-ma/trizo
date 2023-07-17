@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsArrowRightCircle} from 'react-icons/bs'
-
+import Link from 'next/link'
 
 function About() {
   return (
@@ -13,12 +13,12 @@ function About() {
         brand and create unforgettable experiences.
         <div className='relative left-28 md:left-0 mt-3' >
 
-       <a href='/aboutus' className='flex items-center space-x-2 italic text-teal-800'>
+       <Link href='/aboutus' className='flex items-center space-x-2 italic text-teal-800'>
        <BsArrowRightCircle className=' text-xl'/>
         <h1>
           About us
           </h1>
-          </a>
+          </Link>
         </div>
         </h2>
         </div>

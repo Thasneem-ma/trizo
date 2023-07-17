@@ -29,7 +29,7 @@ function WhyChooseUs() {
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h3 className="text-xl font-semibold mb-4">Quality</h3>
             <p className="text-gray-700">
-              We pride ourselves on delivering high-quality work that meets and exceeds our clients' expectations.
+              We pride ourselves on delivering high-quality work that meets and exceeds our clients&apos; expectations.
             </p>
           </div>
           

@@ -21,7 +21,7 @@ function HomeDashboard() {
           <h1>Transforming Ideas, <br></br></h1>
           <h1>Online Precence,<br></br></h1>
           <h1>and Events: <br></br></h1>
-          <h1 className='font-semibold md:text-7xl text-4xl md:pt-0 pt-2'>Trizo's Expertise,<br></br></h1>
+          <h1 className='font-semibold md:text-7xl text-4xl md:pt-0 pt-2'>Trizo&apos;s Expertise,<br></br></h1>
         </div>
       <div className= 'absolute md:block hidden inset-0 md:top-20 w-fit z-10 '>
         <h1 className='font-medium md:text-7xl text-4xl text-teal-950 md:text-end text-center'>
