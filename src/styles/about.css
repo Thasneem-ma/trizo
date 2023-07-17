@@ -1,0 +1,10 @@
+.main{
+    background-image: url(../assets/textureBg.svg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.textGrid{
+    text-align: -webkit-center;
+}
