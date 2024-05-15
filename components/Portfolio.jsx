@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/2ndComponentBgCut.png'
 
+
 function Portfolio() {
   return (
     <div className='flex flex-col md:flex-row items-center justify-center py-12 px-16 md:px-44 space-x-6'>

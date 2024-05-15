@@ -19,6 +19,7 @@ function Navbar() {
       <div className='navbar hidden md:flex  space-x-6 items-center cursor-context-menu '>
         <h1 className='max1 text-sm '>Home</h1>
         <h1 className='max1 text-sm '>About Us</h1>
+        <h1 className='max1 text-sm '>Services</h1>
         <h1 className='max1 text-sm '>Portfolio</h1>
         <h1 className='max1 text-sm '>On Board</h1>
         <button className='text font-semibold bg-brand-primary px-2.5 py-0.5 text-white '>Hire Us</button>
