@@ -1,5 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import { portImages } from '@/constants/images';
+import Image from 'next/image';
+import './page.css'
 
 function Page() {
   return (
@@ -7,8 +10,8 @@ function Page() {
       <div className='flex items-center justify-center'>
         <h1 className='text-5xl md:text-9xl font-bold text-brand-primary opacity-10'>PORTFOLIO</h1>
       </div>
-      <div className='flex gap-5 justify-center items-center py-10 cursor-pointer text-slate-500'>
-        <Link href="/all" className='transition ease-in-out delay-150 hover:translate-y-1  hover:text-brand-secondary duration-300'>
+      <div className='flex gap-5 justify-center items-center text-sm md:text-sm py-10 cursor-pointer  text-slate-500'>
+        <Link href="/portfolio" className='transition ease-in-out delay-150 hover:translate-y-1  hover:text-brand-secondary duration-300'>
           All
         </Link>
         <Link href="/brand-identity" className='transition ease-in-out delay-150 hover:translate-y-1  hover:text-brand-secondary duration-300'>
@@ -24,6 +27,19 @@ function Page() {
           Web designing
         </Link>
       </div>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
+        {portImages.map((post, i) => (
+          <div key={i} className='relative w-full h-68 md:h-auto'>
+            <Image src={post} width={1000} alt='portfolio' />
+            <div className="overlay">
+              <div className='flex justify-center items-center h-full'>
+                <h1 className='text-white'>hafeex</h1>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
     </div>
   );
 }
