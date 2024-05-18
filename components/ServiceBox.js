@@ -8,7 +8,7 @@ import { MdOutlineNavigateNext } from "react-icons/md";
 function ServiceBox() {
   return (
     <div className='bg-white relative -top-32 rounded-xl z-50 w-[80%] shadow-lg px-6 py-12 container mx-auto 
-    justify-around items-center  content-center grid grid-flow-row md:grid-flow-col-dense gap-5 text-center 
+    justify-around items-center  content-center grid grid-flow-row md:grid-flow-col-dense gap-8 md:gap-5 text-center 
     '>
       <div className='w-fit flex flex-col items-center'>
         <TbBrandAirtable className='text-brand-primary' size={80} />
@@ -19,7 +19,7 @@ function ServiceBox() {
           <MdOutlineNavigateNext size={25} />
         </div>
       </div>
-      <div className='w-0.5 h-full bg-gray-200 rounded-full'></div>
+      <div className='w-full md:w-0.5 h-0.5 md:h-full bg-gray-200 rounded-full'></div>
       <div className='w-fit flex flex-col items-center'>
       <RiSlideshowView className='text-brand-primary' size={80}/>
         <h1 className='text-lg font-semibold text-brand-primary'>Website Development</h1>
@@ -29,7 +29,7 @@ function ServiceBox() {
           <MdOutlineNavigateNext size={25} />
         </div>
       </div>
-      <div className='w-0.5 h-full bg-gray-200 rounded-full'></div>
+      <div className='w-full md:w-0.5 h-0.5 md:h-full bg-gray-200 rounded-full'></div>
       <div className='w-fit flex flex-col items-center'>
       <GoFileMedia className='text-brand-primary' size={80} />
         <h1 className='text-lg font-semibold text-brand-primary'>Social Media Ads</h1>
@@ -39,7 +39,7 @@ function ServiceBox() {
           <MdOutlineNavigateNext size={25} />
         </div>
       </div>
-      <div className='w-0.5 h-full bg-gray-200 rounded-full'></div>
+      <div className='w-full md:w-0.5 h-0.5 md:h-full bg-gray-200 rounded-full'></div>
       <div className='w-fit flex flex-col items-center'>
       <GrTechnology className='text-brand-primary' size={80} />
         <h1 className='text-lg font-semibold text-brand-primary'>Software Developments</h1>

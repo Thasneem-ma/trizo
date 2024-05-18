@@ -3,7 +3,7 @@ import { MdOutlineNavigateNext } from "react-icons/md";
 
 function WhatWe() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between py-12 px-16 md:px-44 space-x-6">
+    <div className="flex flex-col md:flex-row items-start md:items-center justify-between px-14 md:px-44 space-x-0 md:space-x-6">
 
       <div className="">
         <h1 className="text-2xl md:text-5xl  text-zinc-300 opacity-1">What</h1>
