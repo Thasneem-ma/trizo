@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { portImages } from '@/constants/images';
 import Image from 'next/image';
 import { MdOutlineNavigateNext, MdClose } from "react-icons/md";
+import { CiZoomIn } from "react-icons/ci";
+
 
 const sections = ["All", "Brand Identity", "Social Media"];
 
@@ -46,7 +48,7 @@ function Portfolio() {
               <Image src={port.image} alt='portfolio' className="cursor-pointer w-full" />
               <div className="overlay">
                 <div className='flex justify-center items-center h-full'>
-                  <h1 className='text-white'>hafeex</h1>
+                  <h1 className='text-white'><CiZoomIn  size={30}/></h1>
                 </div>
               </div>
             </div>

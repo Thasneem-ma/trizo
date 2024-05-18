@@ -5,6 +5,7 @@ import { GoFileMedia } from "react-icons/go";
 import { GrTechnology } from "react-icons/gr";
 import { MdOutlineNavigateNext } from "react-icons/md";
 
+
 function ServiceBox() {
   return (
     <div className='bg-white relative -top-32 rounded-xl z-50 w-[80%] shadow-lg px-6 py-12 container mx-auto 

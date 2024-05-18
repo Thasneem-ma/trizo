@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { portImages } from '@/constants/images';
 import Image from 'next/image';
+import { CiZoomIn } from "react-icons/ci";
 
 
 
@@ -42,7 +43,7 @@ function Page() {
               <Image src={port.image} alt='portfolio' className="cursor-pointer w-300 h-200" />
               <div className="overlay">
                 <div className='flex justify-center items-center h-full'>
-                  <h1 className='text-white'>hafeex</h1>
+                  <h1 className='text-white '><CiZoomIn  size={30}/></h1>
                 </div>
               </div>
             </div>
