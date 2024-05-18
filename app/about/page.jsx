@@ -23,7 +23,7 @@ function About() {
             </div>
             <div class="container overflow-hidden relative">
                 <div class='flex flex-col lg:flex-row justify-center gap-4 text-6xl md:8xl'>
-                    <h1 class="text-slate-400 animated-header">WEARE<span class="font-bold text-black">TZORI</span></h1>
+                    <h1 class="text-slate-400 animated-header">WEARE<span class="font-bold text-green-900">TZORI</span></h1>
                 </div>
                 <h1 class="text-sm text-center p-3 text-slate-400 animated-subheader">
                     Our goal is not only to create designs that look good, but designs that serve a purpose. We examine your brand from every angle. We look at the smallest details, bringing together market insights and business goals, to create a focused solution.
