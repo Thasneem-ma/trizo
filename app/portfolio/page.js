@@ -19,7 +19,7 @@ function Page() {
   };
 
   return (
-    <div className='flex flex-col  items-center py-12 px-16 md:px-44 space-x-6'>
+    <div className='flex flex-col py-12 px-14 md:px-44'>
       <div className='flex items-center justify-center'>
         <h1 className='text-5xl md:text-9xl font-bold text-brand-primary opacity-10'>PORTFOLIO</h1>
       </div>
@@ -38,8 +38,7 @@ function Page() {
       </div>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8'>
         {filteredImages.map((port, i) => (
-          <div  className='relative'>
-            <div key={i} className="image-container">
+            <div key={i} className="relative">
               <Image src={port.image} alt='portfolio' className="cursor-pointer w-300 h-200" />
               <div className="overlay">
                 <div className='flex justify-center items-center h-full'>
@@ -47,7 +46,6 @@ function Page() {
                 </div>
               </div>
             </div>
-          </div>
         ))}
       </div>
     </div>
