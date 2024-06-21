@@ -6,6 +6,7 @@ import Banner2 from '@/components/Banner2.js'
 import ServiceBox from '@/components/ServiceBox.js'
 import WhatWe from '@/components/WhatWe.jsx'
 import Portfolio from '@/components/Portfolio.jsx'
+import Link from "next/link";
 
 
 
@@ -16,9 +17,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col space-y-14 ">
       <div className="space-y-0 md:space-y-8  top-28 md:top-20">
       <div className="flex flex-col space-y-3 mx-auto items-center py-12 md:py-20 px-20 md:px-44">
-      <h1 className="text-5xl font-semibold max-w-lg text-center">Transforming Ideas Into Stunning Designs</h1>
+      <h1 className="text-5xl font-semibold max-w-lg text-center">Designing Tomorrow: Where Ideas Come to Life</h1>
       <h1 className="max-w-lg text-center">We provide the complete solution for your Needs</h1>
-      <button className="bg-brand-primary text-white text-lg font-semibold px-4 py-1.5 relative top-3 rounded-full">Explore</button>
+      <Link href='/portfolio' className="bg-brand-primary text-white text-lg font-semibold px-4 py-1.5 relative top-3 rounded-full">Discover More</Link>
       </div>
       <OurClients/>
       </div>
